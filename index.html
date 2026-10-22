@@ -1,47 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>About Me</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header id="home">
-<h1>About Me</h1>
-<p>Welcome to my first web page!</p>
-</header>
-<nav>
-   <ul>
-	<li><a href="#home">Home</a></li>
-	<li><a href="#favorites">My Favorites</a></li>
-	<li><a href="#about">About</a></li>
-  </ul>
-</nav>
+    <header id="home">
+        <h1>About Me</h1>
+        <p class="intro-text">Welcome to my first web page!</p>
+    </header>
 
-<main>
-<section id="favorites">
-   <h2>My Favorite Foods</h2>
-      <ol> 
-	<li>Pizza</li>
-	<li>Burger</li>
-	<li>Cookies</li>
-      </ol>
-</section>
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#favorites">My Favorites</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
 
-<section id="about">
-<h2> My Favorite Picture</h2>
-	<img
-	src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr2upkWPG1VckXpQXAKieK0llxsKXns3GvrhWXJQtLpw&s=10"
-	alt="pointy finger"
-	/>
-   <article>
-     <h3>About My Interests</h3>
-     <p>I enjoy learning new things and making my first Website.</p>
-   </article> 
-  </section>
-  </main>
-  <footer>
-	<p>Thankyou for visiting my website</p>
-  </footer>
+    <main>
+        <section id="favorites" class="content-card">
+            <h2>My Favorite Foods</h2>
+            <ol>
+                <li>Pizza</li>
+                <li>Burger</li>
+                <li>Cookies</li>
+            </ol>
+        </section>
+
+        <section id="about" class="content-card">
+            <h2>My Favorite Picture</h2>
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr2upkWPG1VckXpQXAKieK0llxsKXns3GvrhWXJQtLpw&s=10"
+                alt="Pointing finger"
+                class="favorite-picture"
+            >
+            <article>
+                <h3>About My Interests</h3>
+                <p>I enjoy learning new things and making my first website.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Thank you for visiting my website.</p>
+    </footer>
 </body>
 </html>
